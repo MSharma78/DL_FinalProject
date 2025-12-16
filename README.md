@@ -96,24 +96,6 @@ We expect models trained entirely on synthetic data to achieve **comparable accu
 
 ---
 
-## Requirements
-
-* Python 3.8+
-* PyTorch
-* HuggingFace Transformers
-* Datasets
-* SentencePiece
-* NumPy, Pandas
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-
 ## Conclusion
 
 This project demonstrates the feasibility of training competitive GEC models using **synthetic data augmentation alone**, reducing reliance on human-annotated datasets and enabling scalable grammar correction systems.
