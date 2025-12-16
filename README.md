@@ -96,31 +96,6 @@ We expect models trained entirely on synthetic data to achieve **comparable accu
 
 ---
 
-## Repository Structure
-
-```
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│
-├── src/
-│   ├── data_augmentation.py
-│   ├── train.py
-│   ├── evaluate.py
-│
-├── notebooks/
-│   └── experiments.ipynb
-│
-├── results/
-│   ├── metrics.json
-│   └── sample_outputs.txt
-│
-├── README.md
-└── requirements.txt
-```
-
----
-
 ## Requirements
 
 * Python 3.8+
@@ -138,21 +113,6 @@ pip install -r requirements.txt
 
 ---
 
-## How to Run
-
-### Training
-
-```bash
-python src/train.py --model t5-base --epochs 5
-```
-
-### Evaluation
-
-```bash
-python src/evaluate.py --model_checkpoint path/to/checkpoint
-```
-
----
 
 ## Conclusion
 
