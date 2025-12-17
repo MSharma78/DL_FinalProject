@@ -1,0 +1,13 @@
+{
+  "bleu_sacrebleu": 68.21008675984946,
+  "chrf": 84.04193559448461,
+  "exact_match_secondary": 0.06268,
+  "copy_rate": 0.22576,
+  "gen_kwargs": {
+    "num_beams": 4,
+    "max_new_tokens": 256,
+    "length_penalty": 1.0,
+    "early_stopping": true,
+    "no_repeat_ngram_size": 3
+  }
+}
