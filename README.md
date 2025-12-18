@@ -2,7 +2,7 @@
 
 This project explores **Grammatical Error Correction (GEC)** using **synthetic data augmentation** and **T5 transformer models**. Traditional GEC systems often rely on manually annotated datasets (e.g., CoNLL-2014, JFLEG), which are costly to create and limited in error coverage. Our approach trains a GEC model using **synthetically corrupted sentences** paired with their clean originals, then fine-tunes **T5-small** in a text-to-text setup to learn to reverse those errors.
 
-The core hypothesis is that a model trained *only on synthetic data* can learn strong correction behavior and generalize beyond the specific injected noise patterns—while also revealing the limitations of synthetic-only training.
+The core hypothesis is that a model trained *only on synthetic data* can learn strong correction behavior and generalize beyond the specific injected noise patterns while also revealing the limitations of synthetic-only training.
 
 ---
 
